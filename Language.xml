@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <menu>
+        <en>Home Page</en>
+        <vn>Trang chủ</vn>
+    </menu>
+
+    <menu>
+        <en>About Us</en>
+        <vn>Giới thiệu</vn>
+    </menu>
+
+    <menu>
+        <en>Products</en>
+        <vn>Sản phẩm</vn>
+    </menu>
+	<heading>
+		<en>Heading</en>
+		<vn>Tiêu đề</vn>
+	</heading>
+	<error>
+		<blankUserName>
+			<en>User name cannot be null!</en>
+			<vn>Bạn thiếu tên đăng nhập!</vn>
+		</blankUserName>
+		<blankPassword>
+			<en>Password cannot be null!</en>
+			<vn>Bạn thiếu tên mật khẩu!</vn>
+		</blankPassword>
+	</error>
+</root>

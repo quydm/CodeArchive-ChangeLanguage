@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Change Language" />
+        <meta name="author" content="Minh Quy" />
+        <meta name="resource-type" content="Document" />
+        <meta name="distribution" content="Global" />
+        <meta name="revisit-after" content="1 days" />
+        <meta name="robots" content="ALL" />
+        <meta name="copyright" content="Minh Quy" />
+        <title>Language</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script type="text/javascript" src="lang.js" ></script>
+    </head>
+    <body onload="reload()">
+        <div id="view" >
+            <div id="header" >
+				<div id="top" >
+					<a href="javascript:void(0)" onclick="changeLang('vn')" >Tiếng Việt</a>
+					<a href="javascript:void(0)" onclick="changeLang('en')" >English</a>
+				</div>
+                <h1 id="heading"></h1>
+            </div>
+
+            <div id="menu" ></div>
+
+            <div id="content" >
+				<form onsubmit="return checkForm(this)" action="" method="post" name="frm" >
+					<input type="text" name="txt" />
+					<input type="submit" name="btn" value="Check" />
+				</form>
+            </div>
+
+            <div id="footer" >
+            </div>
+        </div>
+    </body>
+</html>

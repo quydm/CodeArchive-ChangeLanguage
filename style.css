@@ -1,0 +1,9 @@
+*{margin:0;padding:0;}
+body{font-family:Tahoma;font-size:12px;}
+#view{width:970px;margin:0 auto;}
+#header{height:150px;position:relative;}
+#header h1{position:absolute;bottom:20px;left:400px;}
+#header #top{position:absolute;top:0;right:10px;}
+#menu{height:30px;text-align:center;}
+#menu ul{margin-top:7px;}
+#menu li{list-style:none;display:inline;margin:0 20px;}
